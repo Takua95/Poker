@@ -6,8 +6,8 @@ class Card
 {
 public:
 	//ENUMERATED DATA TYPES
-	enum Face { three, four, five, six, seven, eight, nine, ten, jack, queen, king, joker };
-	enum Suit { diamonds, spades, hearts, stars, clubs, none };
+	enum Face { ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen, king };
+	enum Suit { spades, hearts, diamonds, clubs };
 protected:
 
 private:
